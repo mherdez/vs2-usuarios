@@ -1,0 +1,35 @@
+body {
+  background-color: #aaa;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background-color: cadetblue;
+  width: 160px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  aspect-ratio: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 80%;
+}
+
+p{
+  font-size: 26px;
+}
