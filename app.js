@@ -123,11 +123,11 @@ const getPokemon = async (id) => {
 
 
 
-new Array(10).fill(null).forEach((d,data) => getPokemon(data).then(data => {
+new Array(10).fill(null).forEach((d, data) => getPokemon(data).then(data => {
   card.innerHTML += `
-     <div class="card">
-       <img src="${data.sprites.other.dream_world.front_default}" alt="">
-       <p>${data.name}</p>
-     </div>
-     `;
-}))
+    <div class="card">
+      <img src="${data.sprites.other.dream_world.front_default}" alt="">
+      <p>${data.name}</p>
+    </div>
+    `;
+}));

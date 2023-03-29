@@ -7,7 +7,7 @@ body {
 
 #app {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 30px;
 }
 
@@ -25,11 +25,31 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
 img {
   width: 80%;
 }
-
-p{
+.texto {
+  margin: 10px;
   font-size: 26px;
+}
+
+.imagen {
+  filter: brightness(0);
+  width: 50px;
+}
+.imagen:hover {
+  filter: brightness(1);
+  cursor: pointer;
+}
+
+.caja {
+  background-color: cadetblue;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  color: red
+}
+h4 {
+  color: blue;
+  font-size: 30px;
 }
